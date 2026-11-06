@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f5f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #203d35;
+    padding: 20px 8%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #d8c5a3;
+}
+
+.hero {
+    height: 550px;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)),
+        url("img/hotell.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.button,
+button {
+    display: inline-block;
+    background-color: #b99b70;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover,
+button:hover {
+    background-color: #94764d;
+}
+
+.about {
+    text-align: center;
+    padding: 70px 15%;
+    background-color: white;
+}
+
+.about h2 {
+    font-size: 32px;
+    color: #203d35;
+    margin-bottom: 25px;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+.services {
+    text-align: center;
+    padding: 70px 8%;
+}
+
+.services h2 {
+    font-size: 32px;
+    color: #203d35;
+    margin-bottom: 35px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.service-container article {
+    background-color: white;
+    padding: 35px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.service-container h3 {
+    color: #203d35;
+    margin-bottom: 15px;
+}
+
+.contact-hero {
+    background-color: #e8e2d7;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.contact-hero h1 {
+    font-size: 42px;
+    color: #203d35;
+    margin-bottom: 15px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 70px 8%;
+}
+
+.contact-info,
+.contact-form {
+    flex: 1;
+    max-width: 500px;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    color: #203d35;
+    margin-bottom: 25px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.contact-info img {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-note {
+    font-size: 13px;
+    color: #666;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #203d35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
